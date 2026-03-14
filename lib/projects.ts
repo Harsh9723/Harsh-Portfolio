@@ -12,51 +12,55 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "device-library-tree-system",
-    title: "Device Library Tree System",
+    slug: "netzoom-dcim-platform",
+    title: "NetZoom (DCIM Platform)",
     description:
-      "Dynamic tree with API loading, drag & drop shapes and Office.js integration.",
+      "Enterprise DCIM application to virtually manage and visualize data center devices for multiple companies.",
     long:
-      "Built an interactive device library with hierarchical navigation, lazy-loaded nodes, and shape manipulation. Integrated with Office.js to sync selections with Excel, enabling end-to-end workflows.",
-    year: "2024",
-    stack: ["React", "Next.js", "TypeScript", "Tailwind", "Office.js"],
+      "Enterprise DCIM application designed to virtually manage and visualize data center devices for multiple companies, providing a comprehensive view of infrastructure and assets.",
+    year: "2025",
+    stack: ["React", "TypeScript", "Context API"],
     links: { demo: "#", source: "#" },
     images: ["/projects/device-library-1.png", "/projects/device-library-2.png"],
     highlights: [
-      "Lazy data loading and virtualization",
-      "Drag & drop with snap-to-grid",
-      "Excel integration via Office.js",
+      "Enterprise DCIM application to virtually manage and visualize data center devices for multiple companies",
+      "Developed a Microsoft Office Add-in to visualize devices and their properties directly within Office applications",
     ],
   },
   {
-    slug: "gift-dashboard",
-    title: "Gift Dashboard",
+    slug: "comtech-gold",
+    title: "Comtech Gold",
     description:
-      "Data-rich dashboard with filtering, pagination and unified APIs for gift management.",
+      "Gold trading platform supporting buy, sell, and SIP management.",
     long:
-      "Delivered a performant dashboard with advanced filtering, server pagination, and role-driven access. Consolidated disparate APIs into a single typed gateway.",
-    year: "2023",
-    stack: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind"],
+      "A comprehensive gold trading platform that supports various transactions including buying, selling, and Systematic Investment Plan (SIP) management for gold assets.",
+    year: "2026",
+    stack: ["React", "JavaScript", "Node.js", "Express.js", "MongoDB", "Redux Toolkit"],
     links: { demo: "#", source: "#" },
     images: ["/projects/gift-1.png", "/projects/gift-2.png"],
-    highlights: ["Server pagination", "RBAC", "Unified API layer"],
+    highlights: [
+      "Gold trading platform supporting buy, sell, and SIP management",
+      "Integrated external payment gateway (UrbanLedger)",
+    ],
   },
   {
-    slug: "portfolio-website",
-    title: "Portfolio Website",
+    slug: "nilkanth-attendance-management-system",
+    title: "Nilkanth Attendance Management System",
     description:
-      "Modern developer portfolio built using Next.js, Tailwind and Framer Motion.",
+      "Role-based attendance system with Super Admin, Admin, Manager, and Employee access.",
     long:
-      "A theme-aware, animated portfolio with dynamic sections, contact integrations, and optimized assets. Focused on accessibility and performance.",
-    year: "2026",
-    stack: ["Next.js", "Tailwind", "Framer Motion", "TypeScript"],
-    links: { demo: "/", source: "#" },
+      "A robust attendance management system featuring multi-level role-based access control and advanced tracking features to streamline workforce management.",
+    year: "2025",
+    stack: ["React", "Node.js", "Express.js", "MongoDB", "Redux Toolkit"],
+    links: { demo: "#", source: "#" },
     images: ["/projects/portfolio-1.png", "/projects/portfolio-2.png"],
-    highlights: ["Dark/light theming", "Framer Motion", "Contact integrations"],
+    highlights: [
+      "Role-based attendance system with Super Admin, Admin, Manager, and Employee access",
+      "Implemented geo-location based attendance to restrict punch-in/out within assigned work areas",
+    ],
   },
 ]
 
 export function getProjectBySlug(slug: string) {
   return projects.find((p) => p.slug === slug)
 }
-
