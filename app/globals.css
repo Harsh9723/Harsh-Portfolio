@@ -117,13 +117,24 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground min-h-screen;
+
+    background: linear-gradient(135deg,
+        oklch(0.98 0.02 240),
+        oklch(0.92 0.04 260),
+        oklch(0.88 0.05 280));
   }
-  html {
-    @apply font-sans;
+
+  .dark body {
+    background: linear-gradient(135deg,
+        oklch(0.18 0.02 260),
+        oklch(0.14 0.03 250),
+        oklch(0.10 0.04 240));
   }
+}
+
+@keyframes gradientSlide {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
 }
