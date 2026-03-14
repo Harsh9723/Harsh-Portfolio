@@ -1,6 +1,6 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"    
 import { Card } from "@/components/ui/card"
 import { Code2, Server, Database, Settings2, ShieldCheck } from "lucide-react"
 
@@ -32,7 +32,7 @@ const skillCategories = [
     }
 ]
 
-const containerVariants = {
+const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
         opacity: 1,
@@ -42,7 +42,7 @@ const containerVariants = {
     }
 }
 
-const itemVariants = {
+const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
         y: 0,
