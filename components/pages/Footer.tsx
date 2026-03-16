@@ -106,7 +106,7 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom */}
-                <div className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-border/50 pt-6">
+                <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 border-t border-border/50 pt-6">
                     <p className="text-xs text-muted-foreground">
                         © {year} Harsh Sheladiya. All rights reserved.
                     </p>

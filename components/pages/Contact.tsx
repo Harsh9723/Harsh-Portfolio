@@ -45,7 +45,7 @@ export default function Contact() {
         {
             icon: <Mail className="h-5 w-5" />,
             label: "Email",
-            value: "harshsheladiya8@gmail.com",
+            value: "harsh1sheladiya@gmail.com",
             href: "mailto:harsh1sheladiya@gmail.com"
         },
         {
@@ -54,12 +54,12 @@ export default function Contact() {
             value: "+91 97230 87097", // Placeholder, adjust as needed
             href: "tel:+918238123456"
         },
-        {
-            icon: <MapPin className="h-5 w-5" />,
-            label: "Location",
-            value: "Ahmedabad, Gujarat, India",
-            href: "https://maps.google.com/?q=Ahmedabad,Gujarat,India"
-        }
+        // {
+        //     icon: <MapPin className="h-5 w-5" />,
+        //     label: "Location",
+        //     value: "Ahmedabad, Gujarat, India",
+        //     href: "https://maps.google.com/?q=Ahmedabad,Gujarat,India"
+        // }
     ]
 
     const socialLinks = [
