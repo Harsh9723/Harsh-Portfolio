@@ -2,13 +2,14 @@
 
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
-import { Briefcase, Calendar, Building2 } from "lucide-react"
+import { Briefcase, Calendar, Building2, MapPin } from "lucide-react"
 
 const experiences = [
     {
         year: "July 2024 — March 2026",
         role: "MERN Stack Developer",
         company: "Dharvee Infotech",
+        location: "Ahmedabad, India • On-site",
         desc: "Building and scaling modern web apps with React, Next.js, Node.js and MongoDB. Led UI modernization and performance efforts.",
         tech: ["React", "Node.js", "MongoDB", "TypeScript", "Context API", "Redux"],
     },
@@ -16,6 +17,7 @@ const experiences = [
         year: "Feb 2024 — July 2024",
         role: "MERN Stack Developer",
         company: "Raidlayer Webhost Private Limited",
+        location: "Ahmedabad, India • On-site",
         desc: "Delivered responsive UI, animations and component libraries with strong accessibility and theme support.",
         tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     },
@@ -53,9 +55,17 @@ export default function Experience() {
                                 </div>
                             </div>
 
-                            <div className="mt-1 flex items-center gap-2 text-sm text-muted-foreground">
-                                <Building2 className="h-4 w-4" />
-                                <span>{exp.company}</span>
+                            <div className="mt-1 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                                <div className="flex items-center gap-1">
+                                    <Building2 className="h-4 w-4" />
+                                    <span>{exp.company}</span>
+                                </div>
+
+                                <div className="flex items-center gap-1">
+                                    <MapPin className="h-4 w-4" />
+                                    <span>{exp.location}</span>
+                                </div>
+
                                 <span className="sm:hidden">• {exp.year}</span>
                             </div>
 

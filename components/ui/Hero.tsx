@@ -41,18 +41,19 @@ export default function Hero() {
                     >
                         <TypeAnimation
                             sequence={[
-                                "React Developer",
-                                2000,
-                                "Next.js Developer",
-                                2000,
+                                "React • Next.js • Node.js • MongoDB",
+                                2500,
                                 "MERN Stack Developer",
                                 2000,
-                                "Full Stack Developer",
-                                2000
+                                "Building Scalable Web Apps",
+                                2000,
+                                "Full Stack JavaScript Developer",
+                                2000,
                             ]}
                             wrapper="span"
                             speed={50}
                             repeat={Infinity}
+                            cursor={true}
                         />
                     </motion.div>
 
