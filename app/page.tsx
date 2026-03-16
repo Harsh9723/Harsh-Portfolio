@@ -6,12 +6,14 @@ import Projects from "@/components/pages/Projects";
 import Skills from "@/components/pages/Skills";
 import Hero from "@/components/ui/Hero";
 import Navbar from "@/components/ui/Navbar";
+import Background3D from "@/components/ui/Background3D";
 
 
 export default function Home() {
   return (
     <>
       <Navbar />
+      <Background3D />
 
       <main>
         <Hero />

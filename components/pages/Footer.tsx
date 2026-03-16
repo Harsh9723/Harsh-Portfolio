@@ -92,15 +92,6 @@ export default function Footer() {
                                 <Linkedin className="h-5 w-5" />
                             </a>
 
-                            <a
-                                href="https://x.com/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center size-9 rounded-lg border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-all"
-                                aria-label="X"
-                            >
-                                <X className="h-5 w-5" />
-                            </a>
 
                             <a
                                 href="mailto:harsh1sheladiya@gmail.com"
@@ -120,9 +111,7 @@ export default function Footer() {
                         © {year} Harsh Sheladiya. All rights reserved.
                     </p>
 
-                    <p className="text-xs text-muted-foreground">
-                        Built with Next.js and Tailwind CSS.
-                    </p>
+                   
                 </div>
             </div>
         </footer>

@@ -46,26 +46,25 @@ export default function Contact() {
             icon: <Mail className="h-5 w-5" />,
             label: "Email",
             value: "harshsheladiya8@gmail.com",
-            href: "mailto:harshsheladiya8@gmail.com"
+            href: "mailto:harsh1sheladiya@gmail.com"
         },
         {
             icon: <Phone className="h-5 w-5" />,
             label: "Phone",
-            value: "+91 82381 23456", // Placeholder, adjust as needed
+            value: "+91 97230 87097", // Placeholder, adjust as needed
             href: "tel:+918238123456"
         },
         {
             icon: <MapPin className="h-5 w-5" />,
             label: "Location",
-            value: "Surat, Gujarat, India",
-            href: "https://maps.google.com/?q=Surat,Gujarat,India"
+            value: "Ahmedabad, Gujarat, India",
+            href: "https://maps.google.com/?q=Ahmedabad,Gujarat,India"
         }
     ]
 
     const socialLinks = [
         { icon: <Github className="h-5 w-5" />, href: "https://github.com/", label: "GitHub" },
         { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/", label: "LinkedIn" },
-        { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com/", label: "Twitter" }
     ]
 
     return (

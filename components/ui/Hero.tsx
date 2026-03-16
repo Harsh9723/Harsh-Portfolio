@@ -105,7 +105,7 @@ export default function Hero() {
                         <div className="relative w-60 h-60 md:w-80 md:h-80 rounded-2xl p-[1px] bg-gradient-to-br from-primary/50 via-foreground/30 to-muted-foreground/20 shadow-2xl">
                             <div className="relative w-full h-full rounded-2xl overflow-hidden bg-card/70 border border-border">
                                 <Image
-                                    src="/profile.jpg"
+                                    src="/profile.png"
                                     alt="Harsh portrait"
                                     fill
                                     sizes="(max-width: 768px) 240px, 320px"

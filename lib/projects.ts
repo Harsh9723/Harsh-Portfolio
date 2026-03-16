@@ -19,7 +19,7 @@ export const projects: Project[] = [
     long:
       "Enterprise DCIM application designed to virtually manage and visualize data center devices for multiple companies, providing a comprehensive view of infrastructure and assets.",
     year: "2025",
-    stack: ["React", "TypeScript", "Context API"],
+    stack: ["React", "TypeScript", "Material Ui"],
     links: { demo: "#", source: "#" },
     images: ["/projects/device-library-1.png", "/projects/device-library-2.png"],
     highlights: [

@@ -6,18 +6,18 @@ import { Briefcase, Calendar, Building2 } from "lucide-react"
 
 const experiences = [
     {
-        year: "2024 — Present",
+        year: "July 2024 — March 2026",
         role: "MERN Stack Developer",
-        company: "Acme Tech",
+        company: "Dharvee Infotech",
         desc: "Building and scaling modern web apps with React, Next.js, Node.js and MongoDB. Led UI modernization and performance efforts.",
-        tech: ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
+        tech: ["React", "Node.js", "MongoDB", "TypeScript", "Context API", "Redux"],
     },
     {
-        year: "2023 — 2024",
-        role: "Frontend Developer",
-        company: "Startup Studio",
+        year: "Feb 2024 — July 2024",
+        role: "MERN Stack Developer",
+        company: "Raidlayer Webhost Private Limited",
         desc: "Delivered responsive UI, animations and component libraries with strong accessibility and theme support.",
-        tech: ["React", "Tailwind", "Framer Motion"],
+        tech: ["React", "Tailwind", "Node.js", "MongoDB"],
     },
 ]
 
